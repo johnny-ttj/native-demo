@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/swtest?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&rewriteBatchedStatements=true&useSSL=false
+    username: root
+    password: 1q2w3e4r5t
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    encoding: UTF-8 #编码
+    suffix: .html #模板后缀
+    mode: HTML #模板
